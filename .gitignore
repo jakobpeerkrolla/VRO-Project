@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Local data and generated artifacts; keep directory placeholders with .gitkeep.
+data/raw/*.csv
+data/processed/*.csv
+models/*
+results/figures/*
+results/tables/*
+results/predictions/*
