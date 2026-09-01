@@ -1,0 +1,13 @@
+cd /Users/jakobsmacncheese/Desktop/ISU/VRO-Project
+
+# Status prüfen (welche Dateien sind neu/geändert?)
+git status
+
+# Alle Änderungen stagen
+git add .
+
+# Commit mit Nachricht
+git commit -m "Add TDS/pH prediction results and plots"
+
+# Zum Remote-Repo pushen
+git push
